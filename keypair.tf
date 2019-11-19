@@ -1,0 +1,4 @@
+resource "aws_key_pair" "atlantis_test_key" {
+  key_name   = "atlantis-test-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCFnnhNJR/c8JhZFtSAar94rXaasJ0OoNA9wHwteoBRQbIqSwLn+LPGHordwU1yJWPg9jwRvg79pLJtHvEtjS0/SB8FaCDszsSdSt3e4lVZB5qdWrOBzoG++l4sNI7qCy0vcqQvxvKWenXpIxtxi3C4zGTZC9Dr7AQ+Jyx5IeQ2OKbJlfNHMqIWX7slbr1zVTtSaZVaTULIiiqEPvvLXX688l8WNzeWAOkURChRIq6iHSXMzwx5j68JOvPclFN3NqJnn8HhG0VktUXR6H90MJ4D7IYVO/aZovcMcpxjfbwjMNtLBOb+bJq4jgXBLowZT16uMu7akVzhvG769SFhgYyN tfe-key"
+}
